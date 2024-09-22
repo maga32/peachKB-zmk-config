@@ -1,0 +1,5 @@
+config SHIELD_PEACHKB_L
+    def_bool $(shields_list_contains,peachKB_left)
+
+config SHIELD_PEACHKB_R
+    def_bool $(shields_list_contains,peachKB_right)

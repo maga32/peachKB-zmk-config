@@ -1,0 +1,17 @@
+if SHIELD_PEACHKB_L || SHIELD_PEACHKB_R
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+
+if SHIELD_PEACHKB_R
+
+config ZMK_KEYBOARD_NAME
+    default "peachKB_BT"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
