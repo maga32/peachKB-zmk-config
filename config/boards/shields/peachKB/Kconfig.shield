@@ -1,5 +1,11 @@
-config SHIELD_PEACHKB_L
-    def_bool $(shields_list_contains,peachKB_left)
+config SHIELD_PEACHKB_D
+    def_bool $(shields_list_contains,peachKB_dongle)
+
+config SHIELD_PEACHKB_CR
+    def_bool $(shields_list_contains,peachKB_center_right)
 
 config SHIELD_PEACHKB_R
     def_bool $(shields_list_contains,peachKB_right)
+
+config SHIELD_PEACHKB_L
+    def_bool $(shields_list_contains,peachKB_left)

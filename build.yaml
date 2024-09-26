@@ -19,6 +19,12 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: peachKB_left
+    shield: peachKB_dongle dongle_display
+  - board: nice_nano_v2
+    shield: peachKB_center_right
   - board: nice_nano_v2
     shield: peachKB_right
+  - board: nice_nano_v2
+    shield: peachKB_left
+  - board: nice_nano_v2
+    shield: settings_reset
